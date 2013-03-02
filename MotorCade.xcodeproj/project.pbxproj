@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8595128416E2C003002A3485 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8595128316E2C003002A3485 /* UIKit.framework */; };
+		8595128616E2C003002A3485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8595128516E2C003002A3485 /* Foundation.framework */; };
+		8595128816E2C003002A3485 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8595128716E2C003002A3485 /* CoreGraphics.framework */; };
+		8595128E16E2C003002A3485 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8595128C16E2C003002A3485 /* InfoPlist.strings */; };
+		8595129016E2C003002A3485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8595128F16E2C003002A3485 /* main.m */; };
+		8595129416E2C003002A3485 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8595129316E2C003002A3485 /* AppDelegate.m */; };
+		8595129616E2C003002A3485 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8595129516E2C003002A3485 /* Default.png */; };
+		8595129816E2C003002A3485 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8595129716E2C003002A3485 /* Default@2x.png */; };
+		8595129A16E2C003002A3485 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8595129916E2C003002A3485 /* Default-568h@2x.png */; };
+		8595129D16E2C003002A3485 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8595129B16E2C003002A3485 /* MainStoryboard.storyboard */; };
+		859512A016E2C003002A3485 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8595129F16E2C003002A3485 /* ViewController.m */; };
+		859512A816E2C003002A3485 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859512A716E2C003002A3485 /* SenTestingKit.framework */; };
+		859512A916E2C003002A3485 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8595128316E2C003002A3485 /* UIKit.framework */; };
+		859512AA16E2C003002A3485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8595128516E2C003002A3485 /* Foundation.framework */; };
+		859512B216E2C003002A3485 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 859512B016E2C003002A3485 /* InfoPlist.strings */; };
+		859512B516E2C003002A3485 /* MotorCadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 859512B416E2C003002A3485 /* MotorCadeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		859512AB16E2C003002A3485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8595127816E2C003002A3485 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8595127F16E2C003002A3485;
+			remoteInfo = MotorCade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8595128016E2C003002A3485 /* MotorCade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotorCade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8595128316E2C003002A3485 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8595128516E2C003002A3485 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8595128716E2C003002A3485 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8595128B16E2C003002A3485 /* MotorCade-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotorCade-Info.plist"; sourceTree = "<group>"; };
+		8595128D16E2C003002A3485 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8595128F16E2C003002A3485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8595129116E2C003002A3485 /* MotorCade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MotorCade-Prefix.pch"; sourceTree = "<group>"; };
+		8595129216E2C003002A3485 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8595129316E2C003002A3485 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8595129516E2C003002A3485 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8595129716E2C003002A3485 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8595129916E2C003002A3485 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8595129C16E2C003002A3485 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8595129E16E2C003002A3485 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8595129F16E2C003002A3485 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		859512A616E2C003002A3485 /* MotorCadeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MotorCadeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		859512A716E2C003002A3485 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		859512AF16E2C003002A3485 /* MotorCadeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MotorCadeTests-Info.plist"; sourceTree = "<group>"; };
+		859512B116E2C003002A3485 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		859512B316E2C003002A3485 /* MotorCadeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotorCadeTests.h; sourceTree = "<group>"; };
+		859512B416E2C003002A3485 /* MotorCadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotorCadeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8595127D16E2C003002A3485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8595128416E2C003002A3485 /* UIKit.framework in Frameworks */,
+				8595128616E2C003002A3485 /* Foundation.framework in Frameworks */,
+				8595128816E2C003002A3485 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859512A216E2C003002A3485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859512A816E2C003002A3485 /* SenTestingKit.framework in Frameworks */,
+				859512A916E2C003002A3485 /* UIKit.framework in Frameworks */,
+				859512AA16E2C003002A3485 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8595127716E2C003002A3485 = {
+			isa = PBXGroup;
+			children = (
+				8595128916E2C003002A3485 /* MotorCade */,
+				859512AD16E2C003002A3485 /* MotorCadeTests */,
+				8595128216E2C003002A3485 /* Frameworks */,
+				8595128116E2C003002A3485 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8595128116E2C003002A3485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8595128016E2C003002A3485 /* MotorCade.app */,
+				859512A616E2C003002A3485 /* MotorCadeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8595128216E2C003002A3485 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8595128316E2C003002A3485 /* UIKit.framework */,
+				8595128516E2C003002A3485 /* Foundation.framework */,
+				8595128716E2C003002A3485 /* CoreGraphics.framework */,
+				859512A716E2C003002A3485 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8595128916E2C003002A3485 /* MotorCade */ = {
+			isa = PBXGroup;
+			children = (
+				8595129216E2C003002A3485 /* AppDelegate.h */,
+				8595129316E2C003002A3485 /* AppDelegate.m */,
+				8595129B16E2C003002A3485 /* MainStoryboard.storyboard */,
+				8595129E16E2C003002A3485 /* ViewController.h */,
+				8595129F16E2C003002A3485 /* ViewController.m */,
+				8595128A16E2C003002A3485 /* Supporting Files */,
+			);
+			path = MotorCade;
+			sourceTree = "<group>";
+		};
+		8595128A16E2C003002A3485 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8595128B16E2C003002A3485 /* MotorCade-Info.plist */,
+				8595128C16E2C003002A3485 /* InfoPlist.strings */,
+				8595128F16E2C003002A3485 /* main.m */,
+				8595129116E2C003002A3485 /* MotorCade-Prefix.pch */,
+				8595129516E2C003002A3485 /* Default.png */,
+				8595129716E2C003002A3485 /* Default@2x.png */,
+				8595129916E2C003002A3485 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		859512AD16E2C003002A3485 /* MotorCadeTests */ = {
+			isa = PBXGroup;
+			children = (
+				859512B316E2C003002A3485 /* MotorCadeTests.h */,
+				859512B416E2C003002A3485 /* MotorCadeTests.m */,
+				859512AE16E2C003002A3485 /* Supporting Files */,
+			);
+			path = MotorCadeTests;
+			sourceTree = "<group>";
+		};
+		859512AE16E2C003002A3485 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				859512AF16E2C003002A3485 /* MotorCadeTests-Info.plist */,
+				859512B016E2C003002A3485 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8595127F16E2C003002A3485 /* MotorCade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 859512B816E2C003002A3485 /* Build configuration list for PBXNativeTarget "MotorCade" */;
+			buildPhases = (
+				8595127C16E2C003002A3485 /* Sources */,
+				8595127D16E2C003002A3485 /* Frameworks */,
+				8595127E16E2C003002A3485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotorCade;
+			productName = MotorCade;
+			productReference = 8595128016E2C003002A3485 /* MotorCade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		859512A516E2C003002A3485 /* MotorCadeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 859512BB16E2C003002A3485 /* Build configuration list for PBXNativeTarget "MotorCadeTests" */;
+			buildPhases = (
+				859512A116E2C003002A3485 /* Sources */,
+				859512A216E2C003002A3485 /* Frameworks */,
+				859512A316E2C003002A3485 /* Resources */,
+				859512A416E2C003002A3485 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				859512AC16E2C003002A3485 /* PBXTargetDependency */,
+			);
+			name = MotorCadeTests;
+			productName = MotorCadeTests;
+			productReference = 859512A616E2C003002A3485 /* MotorCadeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8595127816E2C003002A3485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Griffin;
+			};
+			buildConfigurationList = 8595127B16E2C003002A3485 /* Build configuration list for PBXProject "MotorCade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8595127716E2C003002A3485;
+			productRefGroup = 8595128116E2C003002A3485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8595127F16E2C003002A3485 /* MotorCade */,
+				859512A516E2C003002A3485 /* MotorCadeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8595127E16E2C003002A3485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8595128E16E2C003002A3485 /* InfoPlist.strings in Resources */,
+				8595129616E2C003002A3485 /* Default.png in Resources */,
+				8595129816E2C003002A3485 /* Default@2x.png in Resources */,
+				8595129A16E2C003002A3485 /* Default-568h@2x.png in Resources */,
+				8595129D16E2C003002A3485 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859512A316E2C003002A3485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859512B216E2C003002A3485 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		859512A416E2C003002A3485 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8595127C16E2C003002A3485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8595129016E2C003002A3485 /* main.m in Sources */,
+				8595129416E2C003002A3485 /* AppDelegate.m in Sources */,
+				859512A016E2C003002A3485 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		859512A116E2C003002A3485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859512B516E2C003002A3485 /* MotorCadeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		859512AC16E2C003002A3485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8595127F16E2C003002A3485 /* MotorCade */;
+			targetProxy = 859512AB16E2C003002A3485 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8595128C16E2C003002A3485 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8595128D16E2C003002A3485 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8595129B16E2C003002A3485 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8595129C16E2C003002A3485 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		859512B016E2C003002A3485 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				859512B116E2C003002A3485 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		859512B616E2C003002A3485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		859512B716E2C003002A3485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		859512B916E2C003002A3485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotorCade/MotorCade-Prefix.pch";
+				INFOPLIST_FILE = "MotorCade/MotorCade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		859512BA16E2C003002A3485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotorCade/MotorCade-Prefix.pch";
+				INFOPLIST_FILE = "MotorCade/MotorCade-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		859512BC16E2C003002A3485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MotorCade.app/MotorCade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotorCade/MotorCade-Prefix.pch";
+				INFOPLIST_FILE = "MotorCadeTests/MotorCadeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		859512BD16E2C003002A3485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MotorCade.app/MotorCade";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MotorCade/MotorCade-Prefix.pch";
+				INFOPLIST_FILE = "MotorCadeTests/MotorCadeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8595127B16E2C003002A3485 /* Build configuration list for PBXProject "MotorCade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859512B616E2C003002A3485 /* Debug */,
+				859512B716E2C003002A3485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		859512B816E2C003002A3485 /* Build configuration list for PBXNativeTarget "MotorCade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859512B916E2C003002A3485 /* Debug */,
+				859512BA16E2C003002A3485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		859512BB16E2C003002A3485 /* Build configuration list for PBXNativeTarget "MotorCadeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				859512BC16E2C003002A3485 /* Debug */,
+				859512BD16E2C003002A3485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8595127816E2C003002A3485 /* Project object */;
+}
