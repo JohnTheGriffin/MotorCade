@@ -12,6 +12,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // Create a reference to a Firebase location
+    Firebase* f1 = [[Firebase alloc] initWithUrl:@"https://vikrum.firebaseio.com/"];
+    
+    // Write data to Firebase
+    [f1 set:@"Do you have data? You'll love Firebase."];
+    
+    // Read data and react to changes
+    [f1 on:FEventTypeValue doCallback:^(FDataSnapshot *snap) {
+        NSLog(@"Value : %@ %@", [snap val], [snap name]);
+    }];
+    
     // Override point for customization after application launch.
     //This is a test
     return YES;

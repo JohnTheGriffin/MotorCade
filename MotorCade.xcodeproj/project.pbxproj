@@ -23,6 +23,10 @@
 		859512AA16E2C003002A3485 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8595128516E2C003002A3485 /* Foundation.framework */; };
 		859512B216E2C003002A3485 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 859512B016E2C003002A3485 /* InfoPlist.strings */; };
 		859512B516E2C003002A3485 /* MotorCadeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 859512B416E2C003002A3485 /* MotorCadeTests.m */; };
+		859731AF16E2D36900F49678 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731AE16E2D36800F49678 /* libicucore.dylib */; };
+		859731B116E2D37100F49678 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731B016E2D37100F49678 /* CFNetwork.framework */; };
+		859731B316E2D37B00F49678 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731B216E2D37B00F49678 /* Security.framework */; };
+		859731B516E2D49400F49678 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731B416E2D49400F49678 /* Firebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		859512B116E2C003002A3485 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		859512B316E2C003002A3485 /* MotorCadeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MotorCadeTests.h; sourceTree = "<group>"; };
 		859512B416E2C003002A3485 /* MotorCadeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MotorCadeTests.m; sourceTree = "<group>"; };
+		859731AE16E2D36800F49678 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		859731B016E2D37100F49678 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		859731B216E2D37B00F49678 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		859731B416E2D49400F49678 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = MotorCade/Firebase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +73,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8595128416E2C003002A3485 /* UIKit.framework in Frameworks */,
 				8595128616E2C003002A3485 /* Foundation.framework in Frameworks */,
+				859731B316E2D37B00F49678 /* Security.framework in Frameworks */,
+				859731B116E2D37100F49678 /* CFNetwork.framework in Frameworks */,
+				859731AF16E2D36900F49678 /* libicucore.dylib in Frameworks */,
+				8595128416E2C003002A3485 /* UIKit.framework in Frameworks */,
 				8595128816E2C003002A3485 /* CoreGraphics.framework in Frameworks */,
+				859731B516E2D49400F49678 /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +118,10 @@
 		8595128216E2C003002A3485 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				859731B416E2D49400F49678 /* Firebase.framework */,
+				859731B216E2D37B00F49678 /* Security.framework */,
+				859731B016E2D37100F49678 /* CFNetwork.framework */,
+				859731AE16E2D36800F49678 /* libicucore.dylib */,
 				8595128316E2C003002A3485 /* UIKit.framework */,
 				8595128516E2C003002A3485 /* Foundation.framework */,
 				8595128716E2C003002A3485 /* CoreGraphics.framework */,
@@ -381,9 +397,20 @@
 		859512B916E2C003002A3485 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MotorCade\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MotorCade/MotorCade-Prefix.pch";
 				INFOPLIST_FILE = "MotorCade/MotorCade-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MotorCade\"",
+					"\"$(SRCROOT)/MotorCade/Versions/A\"",
+					"\"$(SRCROOT)/MotorCade/Versions/Current\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,9 +419,20 @@
 		859512BA16E2C003002A3485 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MotorCade\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MotorCade/MotorCade-Prefix.pch";
 				INFOPLIST_FILE = "MotorCade/MotorCade-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MotorCade\"",
+					"\"$(SRCROOT)/MotorCade/Versions/A\"",
+					"\"$(SRCROOT)/MotorCade/Versions/Current\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -453,6 +491,7 @@
 				859512BA16E2C003002A3485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		859512BB16E2C003002A3485 /* Build configuration list for PBXNativeTarget "MotorCadeTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +500,7 @@
 				859512BD16E2C003002A3485 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
