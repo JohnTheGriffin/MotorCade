@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CardIO.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<CardIOPaymentViewControllerDelegate>
+{
+    
+}
 
 @end

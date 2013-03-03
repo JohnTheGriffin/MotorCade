@@ -27,6 +27,16 @@
 		859731B116E2D37100F49678 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731B016E2D37100F49678 /* CFNetwork.framework */; };
 		859731B316E2D37B00F49678 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731B216E2D37B00F49678 /* Security.framework */; };
 		859731B516E2D49400F49678 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731B416E2D49400F49678 /* Firebase.framework */; };
+		859731B716E2EB8B00F49678 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731B616E2EB8B00F49678 /* AVFoundation.framework */; };
+		859731B916E2EB9800F49678 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731B816E2EB9800F49678 /* AudioToolbox.framework */; };
+		859731BB16E2EB9D00F49678 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731BA16E2EB9D00F49678 /* CoreMedia.framework */; };
+		859731BD16E2EBA300F49678 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731BC16E2EBA300F49678 /* CoreVideo.framework */; };
+		859731BF16E2EBA900F49678 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731BE16E2EBA900F49678 /* MobileCoreServices.framework */; };
+		859731C116E2EBAF00F49678 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731C016E2EBAF00F49678 /* OpenGLES.framework */; };
+		859731C316E2EBB500F49678 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731C216E2EBB500F49678 /* QuartzCore.framework */; };
+		859731CB16E2FBFD00F49678 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731CA16E2FBFD00F49678 /* libCardIO.a */; };
+		859731CD16E3055600F49678 /* Screen Shot 2013-03-02 at 8.10.56 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 859731CC16E3055600F49678 /* Screen Shot 2013-03-02 at 8.10.56 PM.png */; };
+		859731CF16E305A400F49678 /* iconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 859731CE16E305A400F49678 /* iconSmall.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +76,20 @@
 		859731B016E2D37100F49678 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		859731B216E2D37B00F49678 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		859731B416E2D49400F49678 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = MotorCade/Firebase.framework; sourceTree = "<group>"; };
+		859731B616E2EB8B00F49678 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		859731B816E2EB9800F49678 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		859731BA16E2EB9D00F49678 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		859731BC16E2EBA300F49678 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		859731BE16E2EBA900F49678 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		859731C016E2EBAF00F49678 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		859731C216E2EBB500F49678 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		859731C616E2FBFD00F49678 /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		859731C716E2FBFD00F49678 /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		859731C816E2FBFD00F49678 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		859731C916E2FBFD00F49678 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		859731CA16E2FBFD00F49678 /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
+		859731CC16E3055600F49678 /* Screen Shot 2013-03-02 at 8.10.56 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2013-03-02 at 8.10.56 PM.png"; sourceTree = "<group>"; };
+		859731CE16E305A400F49678 /* iconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSmall.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,13 +97,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8595128616E2C003002A3485 /* Foundation.framework in Frameworks */,
 				859731B316E2D37B00F49678 /* Security.framework in Frameworks */,
+				859731C316E2EBB500F49678 /* QuartzCore.framework in Frameworks */,
+				859731C116E2EBAF00F49678 /* OpenGLES.framework in Frameworks */,
+				859731BF16E2EBA900F49678 /* MobileCoreServices.framework in Frameworks */,
+				859731BD16E2EBA300F49678 /* CoreVideo.framework in Frameworks */,
+				859731BB16E2EB9D00F49678 /* CoreMedia.framework in Frameworks */,
+				859731B916E2EB9800F49678 /* AudioToolbox.framework in Frameworks */,
+				859731B716E2EB8B00F49678 /* AVFoundation.framework in Frameworks */,
+				8595128616E2C003002A3485 /* Foundation.framework in Frameworks */,
 				859731B116E2D37100F49678 /* CFNetwork.framework in Frameworks */,
 				859731AF16E2D36900F49678 /* libicucore.dylib in Frameworks */,
 				8595128416E2C003002A3485 /* UIKit.framework in Frameworks */,
 				8595128816E2C003002A3485 /* CoreGraphics.framework in Frameworks */,
 				859731B516E2D49400F49678 /* Firebase.framework in Frameworks */,
+				859731CB16E2FBFD00F49678 /* libCardIO.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +131,8 @@
 		8595127716E2C003002A3485 = {
 			isa = PBXGroup;
 			children = (
+				859731CE16E305A400F49678 /* iconSmall.png */,
+				859731CC16E3055600F49678 /* Screen Shot 2013-03-02 at 8.10.56 PM.png */,
 				8595128916E2C003002A3485 /* MotorCade */,
 				859512AD16E2C003002A3485 /* MotorCadeTests */,
 				8595128216E2C003002A3485 /* Frameworks */,
@@ -118,6 +152,13 @@
 		8595128216E2C003002A3485 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				859731C216E2EBB500F49678 /* QuartzCore.framework */,
+				859731C016E2EBAF00F49678 /* OpenGLES.framework */,
+				859731BE16E2EBA900F49678 /* MobileCoreServices.framework */,
+				859731BC16E2EBA300F49678 /* CoreVideo.framework */,
+				859731BA16E2EB9D00F49678 /* CoreMedia.framework */,
+				859731B816E2EB9800F49678 /* AudioToolbox.framework */,
+				859731B616E2EB8B00F49678 /* AVFoundation.framework */,
 				859731B416E2D49400F49678 /* Firebase.framework */,
 				859731B216E2D37B00F49678 /* Security.framework */,
 				859731B016E2D37100F49678 /* CFNetwork.framework */,
@@ -133,6 +174,7 @@
 		8595128916E2C003002A3485 /* MotorCade */ = {
 			isa = PBXGroup;
 			children = (
+				859731C516E2FBFD00F49678 /* CardIO */,
 				8595129216E2C003002A3485 /* AppDelegate.h */,
 				8595129316E2C003002A3485 /* AppDelegate.m */,
 				8595129B16E2C003002A3485 /* MainStoryboard.storyboard */,
@@ -174,6 +216,18 @@
 				859512B016E2C003002A3485 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		859731C516E2FBFD00F49678 /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				859731C616E2FBFD00F49678 /* CardIO.h */,
+				859731C716E2FBFD00F49678 /* CardIOCreditCardInfo.h */,
+				859731C816E2FBFD00F49678 /* CardIOPaymentViewController.h */,
+				859731C916E2FBFD00F49678 /* CardIOPaymentViewControllerDelegate.h */,
+				859731CA16E2FBFD00F49678 /* libCardIO.a */,
+			);
+			path = CardIO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +306,8 @@
 				8595129816E2C003002A3485 /* Default@2x.png in Resources */,
 				8595129A16E2C003002A3485 /* Default-568h@2x.png in Resources */,
 				8595129D16E2C003002A3485 /* MainStoryboard.storyboard in Resources */,
+				859731CD16E3055600F49678 /* Screen Shot 2013-03-02 at 8.10.56 PM.png in Resources */,
+				859731CF16E305A400F49678 /* iconSmall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,8 +465,12 @@
 					"\"$(SRCROOT)/MotorCade\"",
 					"\"$(SRCROOT)/MotorCade/Versions/A\"",
 					"\"$(SRCROOT)/MotorCade/Versions/Current\"",
+					"\"$(SRCROOT)/MotorCade/CardIO\"",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -431,8 +491,12 @@
 					"\"$(SRCROOT)/MotorCade\"",
 					"\"$(SRCROOT)/MotorCade/Versions/A\"",
 					"\"$(SRCROOT)/MotorCade/Versions/Current\"",
+					"\"$(SRCROOT)/MotorCade/CardIO\"",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

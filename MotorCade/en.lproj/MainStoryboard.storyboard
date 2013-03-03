@@ -1,20 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C3012" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C3012" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="wSf-iO-7E8">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="sr1-Qa-vu2">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tq3-ic-tSM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="wSf-iO-7E8" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rcL-MY-X47">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="5oc-bJ-sxG"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-1708" y="43"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="6Ni-nY-NsJ">
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="Mb6-RZ-19q">
+                            <connections>
+                                <action selector="activeatCardReader:" destination="2" id="2YQ-jd-gel"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
-                        <segue destination="s5P-ho-8fw" kind="modal" id="023-bI-JAv"/>
+                        <segue destination="s5P-ho-8fw" kind="push" id="023-bI-JAv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
@@ -26,13 +48,13 @@
             <objects>
                 <viewController id="cd5-NJ-jsX" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JEf-wU-tmY">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="Iz6-Hl-KQG" kind="modal" id="yuq-tY-ubr"/>
-                        <segue destination="bR7-Dz-zal" kind="modal" id="U60-4F-8NP"/>
+                        <segue destination="Iz6-Hl-KQG" kind="push" identifier="Pay" id="yuq-tY-ubr"/>
+                        <segue destination="bR7-Dz-zal" kind="modal" identifier="Contest" id="U60-4F-8NP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bjv-3R-fUc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -44,12 +66,12 @@
             <objects>
                 <viewController id="s5P-ho-8fw" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yg5-PC-cSo">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="cd5-NJ-jsX" kind="modal" id="Hhn-21-a9L"/>
+                        <segue destination="cd5-NJ-jsX" kind="push" id="Hhn-21-a9L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zjh-xf-x3x" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -61,12 +83,12 @@
             <objects>
                 <viewController id="Iz6-Hl-KQG" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4BU-bT-mB8">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="Tb8-kh-a8t" kind="modal" id="P0D-Je-8SC"/>
+                        <segue destination="Tb8-kh-a8t" kind="push" id="P0D-Je-8SC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FzH-9a-ASa" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -78,12 +100,12 @@
             <objects>
                 <viewController id="Tb8-kh-a8t" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ENL-30-NPd">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="V8Y-tz-B5D" kind="modal" id="Sht-G3-fiq"/>
+                        <segue destination="V8Y-tz-B5D" kind="push" id="Sht-G3-fiq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bb2-4J-PuB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -95,24 +117,24 @@
             <objects>
                 <viewController id="V8Y-tz-B5D" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yz7-LT-5Tu">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="qu3-Io-fSF" kind="modal" id="JJg-D7-mxS"/>
+                        <segue destination="qu3-Io-fSF" kind="push" id="JJg-D7-mxS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DA1-jd-3zm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1736" y="-709"/>
+            <point key="canvasLocation" x="1744" y="-701"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3Dr-fd-oZ3">
             <objects>
                 <viewController id="qu3-Io-fSF" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bk9-cE-Jtl">
-                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -131,7 +153,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="SMk-hR-2Wf" kind="modal" id="btw-8D-x9B"/>
+                        <segue destination="SMk-hR-2Wf" kind="push" id="btw-8D-x9B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hz1-ix-vhQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -148,12 +170,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="N4X-eh-nkl" kind="modal" id="FRP-6m-5N8"/>
+                        <segue destination="N4X-eh-nkl" kind="push" id="FRP-6m-5N8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TR0-1r-gyd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1156" y="347"/>
+            <point key="canvasLocation" x="1156" y="339"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Txj-CA-Xwl">
@@ -165,7 +187,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <segue destination="T1X-Y4-6PR" kind="modal" id="sw3-Wx-S4X"/>
+                        <segue destination="T1X-Y4-6PR" kind="push" id="sw3-Wx-S4X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gdz-Ky-TDo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -184,12 +206,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PzH-H0-eE8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2368" y="347"/>
+            <point key="canvasLocation" x="2368" y="339"/>
         </scene>
     </scenes>
     <classes>
         <class className="ViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="activeatCardReader:"/>
+            </relationships>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
