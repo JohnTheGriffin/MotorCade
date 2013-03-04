@@ -1,5 +1,5 @@
 //
-//  choicesViewController.h
+//  ProfileViewController.h
 //  MotorCade
 //
 //  Created by Griffin on 3/3/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface choicesViewController : UIViewController<UIAlertViewDelegate>
+@interface ProfileViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @end

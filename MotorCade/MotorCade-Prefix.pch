@@ -13,4 +13,5 @@
     #import <Foundation/Foundation.h>
     #import <Firebase/Firebase.h>
     #import <AWSiOSSDK/S3/AmazonS3Client.h>
+    #import <Social/Social.h>
 #endif

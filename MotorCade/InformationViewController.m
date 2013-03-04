@@ -48,6 +48,8 @@
     
 	driverInfo = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.origin.x+5, self.view.frame.origin.y+5, self.view.frame.size.width-10, 20)];
     [driverInfo setText:@"Driver Info"];
+    [driverInfo setTextColor:[UIColor whiteColor]];
+    [driverInfo setBackgroundColor:[UIColor clearColor]];
     
     firstName = [[UITextField alloc] initWithFrame:CGRectMake(self.view.frame.origin.x+5, driverInfo.frame.origin.y+30, self.view.frame.size.width-10, 30)];
     [firstName setPlaceholder:@"First Name"];
@@ -87,6 +89,8 @@
     
     citationInfo = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.origin.x+5, zip.frame.origin.y+40, self.view.frame.size.width-10, 20)];
     [citationInfo setText:@"Citation Information"];
+    [citationInfo setTextColor:[UIColor whiteColor]];
+    [citationInfo setBackgroundColor:[UIColor clearColor]];
     
     citationNumber = [[UITextField alloc] initWithFrame:CGRectMake(self.view.frame.origin.x+5, citationInfo.frame.origin.y+40, self.view.frame.size.width-10, 30)];
     [citationNumber setPlaceholder:@"Citation Number"];
@@ -127,6 +131,7 @@
     submit = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [submit setFrame:CGRectMake(self.view.frame.origin.x+5, disputeAddress.frame.origin.y+40, self.view.frame.size.width-10, 60)];
     [submit setTitle:@"Submit" forState:UIControlStateNormal];
+    [submit setBackgroundImage:[UIImage imageNamed:@"button_loginpage_takepicture"] forState:UIControlStateNormal];
     [submit addTarget:self action:@selector(submitInfo) forControlEvents:UIControlEventTouchUpInside];
 
     [self.scrollView addSubview:driverInfo];
@@ -144,7 +149,7 @@
     [self.scrollView addSubview:permanetAddress];
     [self.scrollView addSubview:disputeAddress];
     [self.scrollView addSubview:submit];
-    [self.scrollView setContentSize:CGSizeMake(self.view.frame.size.width, 630)];
+    [self.scrollView setContentSize:CGSizeMake(self.view.frame.size.width, 640)];
 
 }
 -(void)submitInfo{
@@ -159,8 +164,6 @@
     pt.x = 0;
     pt.y -= 60;
     [self.scrollView setContentOffset:pt animated:YES];
-    //[self.scrollView setContentSize:CGSizeMake(self.view.frame.size.width, 560+250)];
-    //[self.scrollView scrollRectToVisible:textField.frame animated:YES];
 }
 -(BOOL)textFieldShouldReturn:(UITextField *)textField{
     [self.scrollView setContentOffset:svc animated:YES];

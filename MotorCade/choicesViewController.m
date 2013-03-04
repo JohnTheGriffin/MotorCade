@@ -29,13 +29,25 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    share = [[UIAlertView alloc] initWithTitle:@"Share on Facebook or Twitter" message:@"" delegate:self cancelButtonTitle:@"No Thanks" otherButtonTitles:@"Facebook", @"Twitter", nil];
+
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+-(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if(buttonIndex == 1){
+        SLComposeViewController *facebook = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+        [facebook setInitialText:@"I just used MotorCade to pay my parking ticket"];
+        [self presentViewController:facebook animated:YES completion:nil];
+    }else if(buttonIndex == 2){
+        SLComposeViewController *twitter = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+        [twitter setInitialText:@"I just used MotorCade to pay my parking ticket"];
+        [self presentViewController:twitter animated:YES completion:nil];
+    }
+    
 }
 
 @end

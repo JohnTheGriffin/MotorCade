@@ -16,7 +16,7 @@
     Firebase* f1 = [[Firebase alloc] initWithUrl:@"https://motorcade.firebaseio.com/"];
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil]; 
     UINavigationController *nav = (UINavigationController*)self.window.rootViewController;
-    [nav pushViewController:[storyboard instantiateViewControllerWithIdentifier:@"DetailedInfo"] animated:YES];
+    [nav pushViewController:[storyboard instantiateViewControllerWithIdentifier:@"MainScreen"] animated:YES];
     /*
     // Write data to Firebase
     [f1 set:@"Do you have data? You'll love Firebase."];

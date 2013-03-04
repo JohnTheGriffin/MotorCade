@@ -40,6 +40,24 @@
 		859731D516E4039600F49678 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859731D416E4039600F49678 /* InformationViewController.m */; };
 		859731D716E4363C00F49678 /* AWSiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731D616E4363C00F49678 /* AWSiOSSDK.framework */; };
 		859731DA16E4389A00F49678 /* choicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859731D916E4389A00F49678 /* choicesViewController.m */; };
+		859731DC16E43C7400F49678 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731DB16E43C7400F49678 /* Social.framework */; };
+		859731DF16E43F6F00F49678 /* ScanningCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859731DE16E43F6F00F49678 /* ScanningCardViewController.m */; };
+		859731E216E4484600F49678 /* ConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859731E116E4484600F49678 /* ConfirmationViewController.m */; };
+		859731E916E44B9300F49678 /* icon_newCitation.png in Resources */ = {isa = PBXBuildFile; fileRef = 859731E616E44B9200F49678 /* icon_newCitation.png */; };
+		859731EA16E44B9300F49678 /* icon_citation.png in Resources */ = {isa = PBXBuildFile; fileRef = 859731E716E44B9200F49678 /* icon_citation.png */; };
+		859731EB16E44B9300F49678 /* background_fixed.png in Resources */ = {isa = PBXBuildFile; fileRef = 859731E816E44B9300F49678 /* background_fixed.png */; };
+		859731EE16E44BB500F49678 /* icon_profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 859731ED16E44BB500F49678 /* icon_profile.png */; };
+		859731F116E44ED500F49678 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859731F016E44ED500F49678 /* ProfileViewController.m */; };
+		859731F416E4737F00F49678 /* button_LoginwithFacebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 859731F216E4737E00F49678 /* button_LoginwithFacebook.png */; };
+		859731F516E4737F00F49678 /* button_loginpage_takepicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 859731F316E4737F00F49678 /* button_loginpage_takepicture.png */; };
+		859731F716E4765C00F49678 /* camera_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 859731F616E4765C00F49678 /* camera_icon.png */; };
+		859731FA16E4778400F49678 /* TicketCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859731F916E4778400F49678 /* TicketCameraViewController.m */; };
+		859731FC16E47E8000F49678 /* background_login.png in Resources */ = {isa = PBXBuildFile; fileRef = 859731FB16E47E8000F49678 /* background_login.png */; };
+		859731FE16E4842A00F49678 /* button_page08_wizardbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 859731FD16E4842900F49678 /* button_page08_wizardbutton.png */; };
+		8597320016E490DD00F49678 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 859731FF16E490DD00F49678 /* Default.png */; };
+		8597320216E490EE00F49678 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8597320116E490EE00F49678 /* Default@2x.png */; };
+		8597320416E490F200F49678 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8597320316E490F200F49678 /* Default-568h@2x.png */; };
+		8597320616E4950E00F49678 /* dashboard_citation.png in Resources */ = {isa = PBXBuildFile; fileRef = 8597320516E4950E00F49678 /* dashboard_citation.png */; };
 		EB7609C016E404980064A405 /* TourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7609BF16E404980064A405 /* TourViewController.m */; };
 		EB7609C116E404980064A405 /* TourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7609BF16E404980064A405 /* TourViewController.m */; };
 		EB7609C316E40A830064A405 /* tour.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB7609C216E40A830064A405 /* tour.plist */; };
@@ -102,6 +120,28 @@
 		859731D616E4363C00F49678 /* AWSiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSiOSSDK.framework; sourceTree = "<group>"; };
 		859731D816E4389A00F49678 /* choicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = choicesViewController.h; sourceTree = "<group>"; };
 		859731D916E4389A00F49678 /* choicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = choicesViewController.m; sourceTree = "<group>"; };
+		859731DB16E43C7400F49678 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		859731DD16E43F6F00F49678 /* ScanningCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanningCardViewController.h; sourceTree = "<group>"; };
+		859731DE16E43F6F00F49678 /* ScanningCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanningCardViewController.m; sourceTree = "<group>"; };
+		859731E016E4484600F49678 /* ConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfirmationViewController.h; sourceTree = "<group>"; };
+		859731E116E4484600F49678 /* ConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfirmationViewController.m; sourceTree = "<group>"; };
+		859731E616E44B9200F49678 /* icon_newCitation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_newCitation.png; sourceTree = "<group>"; };
+		859731E716E44B9200F49678 /* icon_citation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_citation.png; sourceTree = "<group>"; };
+		859731E816E44B9300F49678 /* background_fixed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_fixed.png; sourceTree = "<group>"; };
+		859731ED16E44BB500F49678 /* icon_profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_profile.png; sourceTree = "<group>"; };
+		859731EF16E44ED500F49678 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		859731F016E44ED500F49678 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		859731F216E4737E00F49678 /* button_LoginwithFacebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_LoginwithFacebook.png; sourceTree = "<group>"; };
+		859731F316E4737F00F49678 /* button_loginpage_takepicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_loginpage_takepicture.png; sourceTree = "<group>"; };
+		859731F616E4765C00F49678 /* camera_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_icon.png; sourceTree = "<group>"; };
+		859731F816E4778400F49678 /* TicketCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketCameraViewController.h; sourceTree = "<group>"; };
+		859731F916E4778400F49678 /* TicketCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketCameraViewController.m; sourceTree = "<group>"; };
+		859731FB16E47E8000F49678 /* background_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_login.png; sourceTree = "<group>"; };
+		859731FD16E4842900F49678 /* button_page08_wizardbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_page08_wizardbutton.png; sourceTree = "<group>"; };
+		859731FF16E490DD00F49678 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8597320116E490EE00F49678 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8597320316E490F200F49678 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8597320516E4950E00F49678 /* dashboard_citation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dashboard_citation.png; sourceTree = "<group>"; };
 		EB7609BE16E404980064A405 /* TourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourViewController.h; sourceTree = "<group>"; };
 		EB7609BF16E404980064A405 /* TourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourViewController.m; sourceTree = "<group>"; };
 		EB7609C216E40A830064A405 /* tour.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tour.plist; sourceTree = "<group>"; };
@@ -112,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				859731DC16E43C7400F49678 /* Social.framework in Frameworks */,
 				859731B316E2D37B00F49678 /* Security.framework in Frameworks */,
 				859731C316E2EBB500F49678 /* QuartzCore.framework in Frameworks */,
 				859731C116E2EBAF00F49678 /* OpenGLES.framework in Frameworks */,
@@ -147,6 +188,9 @@
 		8595127716E2C003002A3485 = {
 			isa = PBXGroup;
 			children = (
+				8597320316E490F200F49678 /* Default-568h@2x.png */,
+				8597320116E490EE00F49678 /* Default@2x.png */,
+				859731FF16E490DD00F49678 /* Default.png */,
 				859731CE16E305A400F49678 /* iconSmall.png */,
 				859731CC16E3055600F49678 /* Screen Shot 2013-03-02 at 8.10.56 PM.png */,
 				8595128916E2C003002A3485 /* MotorCade */,
@@ -168,6 +212,7 @@
 		8595128216E2C003002A3485 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				859731DB16E43C7400F49678 /* Social.framework */,
 				859731D616E4363C00F49678 /* AWSiOSSDK.framework */,
 				859731C216E2EBB500F49678 /* QuartzCore.framework */,
 				859731C016E2EBAF00F49678 /* OpenGLES.framework */,
@@ -191,6 +236,7 @@
 		8595128916E2C003002A3485 /* MotorCade */ = {
 			isa = PBXGroup;
 			children = (
+				859731EC16E44B9700F49678 /* Resources */,
 				EB7609AD16E3F8C40064A405 /* Tour */,
 				859731D216E402EE00F49678 /* View Controllers */,
 				859731C516E2FBFD00F49678 /* CardIO */,
@@ -256,8 +302,33 @@
 				859731D416E4039600F49678 /* InformationViewController.m */,
 				859731D816E4389A00F49678 /* choicesViewController.h */,
 				859731D916E4389A00F49678 /* choicesViewController.m */,
+				859731DD16E43F6F00F49678 /* ScanningCardViewController.h */,
+				859731DE16E43F6F00F49678 /* ScanningCardViewController.m */,
+				859731E016E4484600F49678 /* ConfirmationViewController.h */,
+				859731E116E4484600F49678 /* ConfirmationViewController.m */,
+				859731EF16E44ED500F49678 /* ProfileViewController.h */,
+				859731F016E44ED500F49678 /* ProfileViewController.m */,
+				859731F816E4778400F49678 /* TicketCameraViewController.h */,
+				859731F916E4778400F49678 /* TicketCameraViewController.m */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		859731EC16E44B9700F49678 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8597320516E4950E00F49678 /* dashboard_citation.png */,
+				859731FD16E4842900F49678 /* button_page08_wizardbutton.png */,
+				859731FB16E47E8000F49678 /* background_login.png */,
+				859731F616E4765C00F49678 /* camera_icon.png */,
+				859731F216E4737E00F49678 /* button_LoginwithFacebook.png */,
+				859731F316E4737F00F49678 /* button_loginpage_takepicture.png */,
+				859731ED16E44BB500F49678 /* icon_profile.png */,
+				859731E616E44B9200F49678 /* icon_newCitation.png */,
+				859731E716E44B9200F49678 /* icon_citation.png */,
+				859731E816E44B9300F49678 /* background_fixed.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		EB7609AD16E3F8C40064A405 /* Tour */ = {
@@ -349,6 +420,19 @@
 				859731CD16E3055600F49678 /* Screen Shot 2013-03-02 at 8.10.56 PM.png in Resources */,
 				859731CF16E305A400F49678 /* iconSmall.png in Resources */,
 				EB7609C316E40A830064A405 /* tour.plist in Resources */,
+				859731E916E44B9300F49678 /* icon_newCitation.png in Resources */,
+				859731EA16E44B9300F49678 /* icon_citation.png in Resources */,
+				859731EB16E44B9300F49678 /* background_fixed.png in Resources */,
+				859731EE16E44BB500F49678 /* icon_profile.png in Resources */,
+				859731F416E4737F00F49678 /* button_LoginwithFacebook.png in Resources */,
+				859731F516E4737F00F49678 /* button_loginpage_takepicture.png in Resources */,
+				859731F716E4765C00F49678 /* camera_icon.png in Resources */,
+				859731FC16E47E8000F49678 /* background_login.png in Resources */,
+				859731FE16E4842A00F49678 /* button_page08_wizardbutton.png in Resources */,
+				8597320016E490DD00F49678 /* Default.png in Resources */,
+				8597320216E490EE00F49678 /* Default@2x.png in Resources */,
+				8597320416E490F200F49678 /* Default-568h@2x.png in Resources */,
+				8597320616E4950E00F49678 /* dashboard_citation.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +474,10 @@
 				EB7609C016E404980064A405 /* TourViewController.m in Sources */,
 				859731D516E4039600F49678 /* InformationViewController.m in Sources */,
 				859731DA16E4389A00F49678 /* choicesViewController.m in Sources */,
+				859731DF16E43F6F00F49678 /* ScanningCardViewController.m in Sources */,
+				859731E216E4484600F49678 /* ConfirmationViewController.m in Sources */,
+				859731F116E44ED500F49678 /* ProfileViewController.m in Sources */,
+				859731FA16E4778400F49678 /* TicketCameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +595,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MotorCade/MotorCade-Prefix.pch";
 				INFOPLIST_FILE = "MotorCade/MotorCade-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MotorCade\"",
@@ -534,6 +623,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MotorCade/MotorCade-Prefix.pch";
 				INFOPLIST_FILE = "MotorCade/MotorCade-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MotorCade\"",
