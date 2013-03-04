@@ -47,6 +47,8 @@
 		EB7609C116E404980064A405 /* TourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7609BF16E404980064A405 /* TourViewController.m */; };
 		EB7609C316E40A830064A405 /* tour.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB7609C216E40A830064A405 /* tour.plist */; };
 		EB7609C416E40A830064A405 /* tour.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB7609C216E40A830064A405 /* tour.plist */; };
+		859731D116E3117800F49678 /* AWSiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859731D016E3117800F49678 /* AWSiOSSDK.framework */; };
+		859731D516E4039600F49678 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 859731D416E4039600F49678 /* InformationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +111,9 @@
 		EB7609BE16E404980064A405 /* TourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourViewController.h; sourceTree = "<group>"; };
 		EB7609BF16E404980064A405 /* TourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourViewController.m; sourceTree = "<group>"; };
 		EB7609C216E40A830064A405 /* tour.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tour.plist; sourceTree = "<group>"; };
+		859731D016E3117800F49678 /* AWSiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSiOSSDK.framework; sourceTree = "<group>"; };
+		859731D316E4039600F49678 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		859731D416E4039600F49678 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +136,7 @@
 				8595128816E2C003002A3485 /* CoreGraphics.framework in Frameworks */,
 				859731B516E2D49400F49678 /* Firebase.framework in Frameworks */,
 				859731CB16E2FBFD00F49678 /* libCardIO.a in Frameworks */,
+				859731D116E3117800F49678 /* AWSiOSSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +177,7 @@
 		8595128216E2C003002A3485 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				859731D016E3117800F49678 /* AWSiOSSDK.framework */,
 				859731C216E2EBB500F49678 /* QuartzCore.framework */,
 				859731C016E2EBAF00F49678 /* OpenGLES.framework */,
 				859731BE16E2EBA900F49678 /* MobileCoreServices.framework */,
@@ -194,12 +201,13 @@
 			isa = PBXGroup;
 			children = (
 				EB7609AD16E3F8C40064A405 /* Tour */,
+				859731D216E402EE00F49678 /* View Controllers */,
 				859731C516E2FBFD00F49678 /* CardIO */,
 				8595129216E2C003002A3485 /* AppDelegate.h */,
 				8595129316E2C003002A3485 /* AppDelegate.m */,
-				8595129B16E2C003002A3485 /* MainStoryboard.storyboard */,
 				8595129E16E2C003002A3485 /* ViewController.h */,
 				8595129F16E2C003002A3485 /* ViewController.m */,
+				8595129B16E2C003002A3485 /* MainStoryboard.storyboard */,
 				8595128A16E2C003002A3485 /* Supporting Files */,
 			);
 			path = MotorCade;
@@ -272,6 +280,14 @@
 				EB7609B616E3F9440064A405 /* small_six.png */,
 			);
 			name = SmallImages;
+		};
+		859731D216E402EE00F49678 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				859731D316E4039600F49678 /* InformationViewController.h */,
+				859731D416E4039600F49678 /* InformationViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,6 +414,7 @@
 				8595129416E2C003002A3485 /* AppDelegate.m in Sources */,
 				859512A016E2C003002A3485 /* ViewController.m in Sources */,
 				EB7609C016E404980064A405 /* TourViewController.m in Sources */,
+				859731D516E4039600F49678 /* InformationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +527,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MotorCade\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MotorCade/MotorCade-Prefix.pch";
@@ -536,6 +554,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/MotorCade\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MotorCade/MotorCade-Prefix.pch";

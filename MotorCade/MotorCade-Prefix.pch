@@ -12,4 +12,5 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
     #import <Firebase/Firebase.h>
+    #import <AWSiOSSDK/S3/AmazonS3Client.h>
 #endif
