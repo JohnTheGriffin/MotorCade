@@ -61,6 +61,7 @@
 		EB2B595216E548CA001159CD /* box_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2B594F16E548CA001159CD /* box_white.png */; };
 		EB2B595316E548CA001159CD /* box_opaque_top.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2B595016E548CA001159CD /* box_opaque_top.png */; };
 		EB2B595416E548CA001159CD /* box_opaque_bot.png in Resources */ = {isa = PBXBuildFile; fileRef = EB2B595116E548CA001159CD /* box_opaque_bot.png */; };
+		EB2B595716E54C9F001159CD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2B595616E54C9F001159CD /* MainViewController.m */; };
 		EB7609C016E404980064A405 /* TourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7609BF16E404980064A405 /* TourViewController.m */; };
 		EB7609C116E404980064A405 /* TourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7609BF16E404980064A405 /* TourViewController.m */; };
 		EB7609C316E40A830064A405 /* tour.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB7609C216E40A830064A405 /* tour.plist */; };
@@ -148,6 +149,8 @@
 		EB2B594F16E548CA001159CD /* box_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_white.png; sourceTree = "<group>"; };
 		EB2B595016E548CA001159CD /* box_opaque_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_opaque_top.png; sourceTree = "<group>"; };
 		EB2B595116E548CA001159CD /* box_opaque_bot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_opaque_bot.png; sourceTree = "<group>"; };
+		EB2B595516E54C9F001159CD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EB2B595616E54C9F001159CD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		EB7609BE16E404980064A405 /* TourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TourViewController.h; sourceTree = "<group>"; };
 		EB7609BF16E404980064A405 /* TourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TourViewController.m; sourceTree = "<group>"; };
 		EB7609C216E40A830064A405 /* tour.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tour.plist; sourceTree = "<group>"; };
@@ -316,6 +319,8 @@
 				859731F016E44ED500F49678 /* ProfileViewController.m */,
 				859731F816E4778400F49678 /* TicketCameraViewController.h */,
 				859731F916E4778400F49678 /* TicketCameraViewController.m */,
+				EB2B595516E54C9F001159CD /* MainViewController.h */,
+				EB2B595616E54C9F001159CD /* MainViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -490,6 +495,7 @@
 				859731E216E4484600F49678 /* ConfirmationViewController.m in Sources */,
 				859731F116E44ED500F49678 /* ProfileViewController.m in Sources */,
 				859731FA16E4778400F49678 /* TicketCameraViewController.m in Sources */,
+				EB2B595716E54C9F001159CD /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
