@@ -13,7 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Create a reference to a Firebase location
-    Firebase* f1 = [[Firebase alloc] initWithUrl:@"https://vikrum.firebaseio.com/"];
+    Firebase* f1 = [[Firebase alloc] initWithUrl:@"https://motorcade.firebaseio.com/"];
     /*
     // Write data to Firebase
     [f1 set:@"Do you have data? You'll love Firebase."];
