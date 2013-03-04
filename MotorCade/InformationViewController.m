@@ -46,7 +46,7 @@
 {
     [super viewDidLoad];
     
-	driverInfo = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.origin.x+5, self.view.frame.origin.y+10, self.view.frame.size.width-10, 20)];
+	driverInfo = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.origin.x+5, self.view.frame.origin.y+5, self.view.frame.size.width-10, 20)];
     [driverInfo setText:@"Driver Info"];
     
     firstName = [[UITextField alloc] initWithFrame:CGRectMake(self.view.frame.origin.x+5, driverInfo.frame.origin.y+30, self.view.frame.size.width-10, 30)];
