@@ -133,6 +133,8 @@
     [submit setTitle:@"Submit" forState:UIControlStateNormal];
     [submit setBackgroundImage:[UIImage imageNamed:@"button_loginpage_takepicture"] forState:UIControlStateNormal];
     [submit addTarget:self action:@selector(submitInfo) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self initializeInformationValues];
 
     [self.scrollView addSubview:driverInfo];
     [self.scrollView addSubview:firstName];
@@ -151,6 +153,22 @@
     [self.scrollView addSubview:submit];
     [self.scrollView setContentSize:CGSizeMake(self.view.frame.size.width, 640)];
 
+}
+
+-(void)initializeInformationValues{
+    [firstName setText:@"Greg"];
+    [lastName setText:@"Muender"];
+    permanetAddress.text = @"PO Box 7718 San Francisco, CA 94120";
+    disputeAddress.text = @"11 South Van Ness, San Francisco, CA 94103";
+    
+    address.text = @"134 My Way";
+    city.text = @"San Francisco";
+    state.text = @"Ca";
+    zip.text = @"94000";
+    citationNumber.text = @"817034271";
+    amountDue.text = @"$83.00";
+    dueDate.text = @"March 30, 2013";
+    citationCity.text = @"SFMTA";
 }
 -(void)submitInfo{
     [self performSegueWithIdentifier:@"submit" sender:self];
